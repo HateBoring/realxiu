@@ -1,0 +1,133 @@
+.wrap{background: #181d20;position:fixed;z-index:999;top:0;}
+.header{width:1200px;margin:0 auto;height:63px;padding:12px 0 18px;position:relative;*z-index:1;}
+.top-nav .navlist-wrap{width:1200px;margin:0 auto;position:relative}
+.navlist {float:left}
+.index{color:#fff;margin-top:11px;position:absolute;left:360px}
+.top-nav .navlist{position:absolute;right:130PX;top:-40PX;}
+.top-nav .navlist a{margin-right:20px;color: #fff;font-size:16px}
+.top-nav .navlist a:hover{color: #ffab02}
+.top-nav .expand{height:0px;background-color:#181d20;overflow:hidden;position:relative;width:100%}
+.download{height:70px;width:500%;}
+.expand .download .item{float:left;width:20%;}
+.expand .download .item-active{display:block}
+.expand .close-btn{color:#fff;position:absolute;text-align:center;bottom:0;cursor:pointer;display: inline-block;width:100%}
+.download .download-list{text-align:center;height:36px;width:1000px;margin:0 auto;border-top:1px solid #345070;border-bottom:1px solid #345070;padding:4px 0 0 0}
+.download .download-list a{color: #d5d5d5;margin-left:10px;}
+.download .download-list a:hover{color:#ffab02}
+
+.user{
+    float:right;
+    width:250px;
+    position:relative;
+    right:-100px;
+    top:0;
+    text-align:right;
+}
+.username{
+    display: block;
+    line-height: 40px;
+}
+/*登录信息*/
+.userbox{
+    display:none;
+    width:253px;
+    z-index: 9999;
+    background: #223449;
+    position: absolute;
+    font-size:14px;
+    color: #ffab02;
+    text-align:center;
+}
+.userbox a{
+    width: 120px;
+    height:40px;
+    line-height:40px;
+    display: block;
+    float: left;
+    margin:5px 5px 0 0 !important;
+    color: #ffffff !important;
+    font-size:14px !important;
+
+}
+.userbox a:hover{
+    color:#ffab02 !important;
+}
+.closeuserbox{
+    color: #ffffff;
+    margin-top:10px;
+    cursor: pointer;
+}
+.userboxpic{
+    margin:0 auto;
+    margin-top:20px;
+    width:80px;
+    margin-bottom:5px;
+
+}
+.userboxpic img{
+    display: block;
+    border-radius: 50px;
+}
+/*登录*/
+.userlogin{
+    display:none;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    position:fixed;
+    z-index:99999;
+    top:0;
+}
+.loginbox{
+    width:400px;
+    height:220px;
+    background:#fff;
+    margin:300px auto;
+    padding:20px;
+    border-radius:10px;
+}
+
+.loginbox p{
+    margin:15px 0;
+}
+.logintitle span{
+    float:right;
+}
+.submit{
+    margin-top:-10px;
+    float:right;
+}
+/*注册*/
+.userreg{
+    display:none;
+    width:100%;
+    height:100%;
+    background:rgba(0,0,0,0.8);
+    position:fixed;
+    z-index:99999;
+    top:0;
+}
+.regbox{
+    width:400px;
+    height:350px;
+    background:#fff;
+    margin:300px auto;
+    padding:20px;
+    border-radius:10px;
+}
+.regbox p{
+    margin:20px 0;
+    line-height:20px;
+}
+.code{
+    float:left;
+    width:200px !important;
+    margin-left:40px;
+}
+.codeimg{
+    float:left;
+}
+.submit{
+    margin-top:5px;
+    width:100%;
+}

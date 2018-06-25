@@ -1,0 +1,31 @@
+.main{
+    width: 1200px;
+    margin:0 auto;
+    margin-top:100px;
+    padding:20px;
+    background: #fff;
+}
+.title{
+    font-size:26px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+.ptitle{
+    font-size:16px;
+    color: #9f9f9f;
+    border-bottom:1px dashed #9f9f9f;
+    padding-bottom:5px;
+    margin-bottom:10px;
+}
+.ptitle a{
+    margin-right:15px;
+}
+.artlist a{
+    display: block;
+}
+.artlabel{
+    margin-right:10px;
+}
+.create_time{
+    float:right;
+}
